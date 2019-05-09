@@ -151,7 +151,7 @@ public class Alarma extends AppCompatActivity implements View.OnClickListener{
                         int t1= (int) System.currentTimeMillis();
                         Informacion infi=new Informacion();
                         try {
-                            acumular=infi.conexion("https://maps.googleapis.com/maps/api/distancematrix/json?origins="+textorigen.getText().toString()+",+España"+"&destinations="+textdestino.getText().toString()+"+España"+"&departure_time=now&language=es-ES&key=AIzaSyC0UyH8RiVldOp19z1F2YvPF0HuHcGmrPU");
+                            acumular=infi.conexion("https://maps.googleapis.com/maps/api/distancematrix/json?origins="+textorigen.getText().toString()+",+España"+"&destinations="+textdestino.getText().toString()+"+España"+"&departure_time=now&language=es-ES&key=*****");
 
                         } catch (IOException e) {
                             e.printStackTrace();
