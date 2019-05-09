@@ -58,8 +58,7 @@ public class Informacion {
         //StrictMode.setThreadPolicy(policy); escapar un fallo de conexion no recomendable
 
         Informacion info =new Informacion();
-       // String response1 = info.run("https://opendata.aemet.es/opendata/api/observacion/convencional/datos/estacion/3195/?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrcmlzdGlhbl92a18zMzMyQGhvdG1haWwuY29tIiwianRpIjoiMjkwNjY5ZTctOWJjYy00NDU0LTg2MzEtZWQ1MmQ4MGQ4MjU0IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE1NDIwNDY4MDcsInVzZXJJZCI6IjI5MDY2OWU3LTliY2MtNDQ1NC04NjMxLWVkNTJkODBkODI1NCIsInJvbGUiOiIifQ.iS-KaYWvAenb_5WqGYA1ec9fwDvG5XYTEl_jgeZxJCQ");
-        String response1 = info.run("https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/28079/?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrcmlzdGlhbl92a18zMzMyQGhvdG1haWwuY29tIiwianRpIjoiMjkwNjY5ZTctOWJjYy00NDU0LTg2MzEtZWQ1MmQ4MGQ4MjU0IiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE1NDIwNDY4MDcsInVzZXJJZCI6IjI5MDY2OWU3LTliY2MtNDQ1NC04NjMxLWVkNTJkODBkODI1NCIsInJvbGUiOiIifQ.iS-KaYWvAenb_5WqGYA1ec9fwDvG5XYTEl_jgeZxJCQ");
+      String response1 = info.run("https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/28079/?api_key=*****");
 
         JSONParser parser = new JSONParser();
         JSONObject json = (JSONObject) parser.parse(response1);
