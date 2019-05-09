@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/oso" android:duration="2500"/>
+    <item android:drawable="@drawable/ayuntamiento" android:duration="2500"/>
+    <item android:drawable="@drawable/granvia" android:duration="2500"/>
+    <item android:drawable="@drawable/retiro" android:duration="2500"/>
+    <item android:drawable="@drawable/skyline" android:duration="2500"/>
+</animation-list>

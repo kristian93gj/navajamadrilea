@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alarma">
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:text="calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="¿cuantos min tardas en prepararte?"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="direccion de origen"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="124dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:text="direccion de destino"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="56dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="268dp"
+        android:text="dia de llegada"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="min"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint="origen"
+        android:inputType="textPostalAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="destino"
+        android:inputType="textPostalAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="158dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="264dp"
+        android:ems="10"
+        android:hint="form dd/mm/aaaa"
+        android:inputType="date"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="277dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="94dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="264dp"
+        android:background="@color/design_default_color_primary"
+        android:text="reloj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="159dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="hh/mm"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textColor="@android:color/holo_blue_bright"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <Button
+        android:id="@+id/buttonubicacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ubicacion"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/madrid"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="onClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_menu_send" />
+
+        <ImageButton
+            android:id="@+id/reloj"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+        <ImageButton
+            android:id="@+id/principal"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            app:srcCompat="@android:drawable/ic_menu_compass" />
+        <ImageButton
+            android:id="@+id/start"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            app:srcCompat="@android:drawable/btn_star_big_off" />
+        <ImageButton
+            android:id="@+id/mapa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"
+            app:srcCompat="@android:drawable/ic_menu_directions" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
